@@ -12,8 +12,9 @@ export default function Contact() {
                     <p className="text-gray-200 text-lg md:text-2xl mb-6 leading-relaxed">
                         Informe seus dados básicos e receba uma proposta personalizada
                     </p>
-                        <button
-                            type="button"
+                        <a  
+                        href="https://wa.me/558431903795?text=Ol%C3%A1!%20Vi%20o%20site%20de%20voc%C3%AAs%20e%20quero%20saber%20como%20funciona%20a%20avalia%C3%A7%C3%A3o%20gratuita%20do%20meu%20precat%C3%B3rio."
+                            target="_blank"
                             className="bg-[#1E3848] mb-5 mt-5 cursor-pointer text-white uppercase rounded-sm px-10 py-3 flex items-center justify-center gap-2 w-fit hover:bg-[#12222c] transition-colors"
                         >
                             INICIE SUA AVALIAÇÃO GRATUITA
@@ -23,7 +24,7 @@ export default function Contact() {
                                 width={22}
                                 height={22}
                             />
-                        </button>
+                        </a>
                     </div>
             </section>
 

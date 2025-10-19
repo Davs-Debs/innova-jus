@@ -1,10 +1,10 @@
 import React from "react";
 
 const steps = [
-    { id: "01", label: "Informe seus dados básicos", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-    { id: "02", label: "Receba a proposta personalizada", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-    { id: "03", label: "Envie seus documentos", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-    { id: "04", label: "Assine o contrato digital", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
+    { id: "01", label: "Informe seus dados básicos", description: "Nos envie seus dados pessoais e as informações do seu precatório ou RPV. Assim, nossa equipe já poderá iniciar a análise do seu caso para apresentar uma proposta rápida e segura, sem burocracia." },
+    { id: "02", label: "Receba a proposta personalizada", description: "Após a análise, elaboramos uma proposta de compra, considerando o valor, o tribunal e o tipo de crédito. Você saberá exatamente quanto pode receber e em quanto tempo, sem custos para avaliar."},
+    { id: "03", label: "Envie seus documentos", description: "Com a proposta aprovada, basta enviar os documentos solicitados de forma 100% digital. Nossa equipe faz toda a conferência para garantir que o processo seja validado junto ao Tribunal de origem" },
+    { id: "04", label: "Assine o contrato digital", description: "Depois da validação, você assina o contrato digital. O pagamento é realizado de acordo com o cronograma combinado, e você transforma o seu precatório em dinheiro, com total segurança jurídica." },
 ];
 
 export default function HowItWorks() {
@@ -46,9 +46,13 @@ export default function HowItWorks() {
                 </div>
 
                 <div className="mt-12 flex justify-center">
-                    <button className="bg-[#249261]  hover:bg-green-700 text-white w-fit rounded-md px-8 py-4 cursor-pointer">
+                      <a  className="bg-[#249261]  hover:bg-green-700 text-white w-fit rounded-md px-8 py-4 cursor-pointer" 
+                      href="https://wa.me/558431903795?text=Ol%C3%A1!%20Vi%20o%20site%20de%20voc%C3%AAs%20e%20quero%20saber%20como%20funciona%20a%20avalia%C3%A7%C3%A3o%20gratuita%20do%20meu%20precat%C3%B3rio." 
+                      target="_blank" 
+                      rel="noopener noreferrer"> 
                         Quer saber quanto pagamos pelo seu Precatório ou RPV? Clique aqui
-                    </button>
+                      </a> 
+                   
                 </div>
             </div>
         </section>
